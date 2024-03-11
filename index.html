@@ -17,7 +17,7 @@
     <div class="background">
         <div class="background-bis"></div>
     </div>
-    <div class="container flex nowrap">
+    <div class="container flex wrap">
         <div class="col30">
             <div class="toolbar-left">
                 <div class="top-left flex nowrap">
@@ -38,7 +38,7 @@
                 <div class="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <label for="username"></label>
-                    <input aria-label="username" id="username" type="text" placeholder="Cerca o inizia una nuova chat">
+                    <input aria-label="search" id="search" type="text" placeholder="Cerca o inizia una nuova chat">
                 </div>
                 <div class="scrooll">
                     <div class="chat-list flex nowrap">
@@ -124,7 +124,7 @@
                 </div>
             </div>
         </div>
-        <div class="col70">
+        <div class="col70"> <div class="scrooll">
             <div class="top-right flex nowrap">
                 <div>
                     <div class="status flex nowrap"><img src="./img/avatar_1.jpg" alt="">
@@ -142,7 +142,7 @@
                     <p>Lorem ipsum dolor r sit amet consectetur adipisicing elit. Quaerat eos blanditiis architecto
                         expedita aspernatur quasi, et nobis aut officiis salura voluptates nesciunt voluptate ipsa fuga
                         rerum doloribus, unde laboriosam doloremque</p>
-                    <div class="chat-time flex nowrap">
+                    <div class="chat-time flex wrap">
                         <i class="fa-solid fa-angle-down"></i>
                         <p>16:13</p>
                     </div>
@@ -151,14 +151,21 @@
                     <p>Lorem ipsum dolor r sit amet consectetur adipisicing elit. Quaerat eos blanditiis architecto
                         expedita aspernatur quasi, et nobis aut officiis salura voluptates nesciunt voluptate ipsa fuga
                         rerum doloribus, unde laboriosam doloremque</p>
-                    <div class="chat-time flex nowrap">
+                    <div class="chat-time flex wrap">
                         <i class="fa-solid fa-angle-down"></i>
                         <p>16:13</p>
                     </div>
                 </div>
-            </div>
+            </div></div>
 
+            <div class="bottom">
+                <span class="icon-bottom"><i class="fa-regular fa-face-smile"></i></span>
+                <span class="message"> <label for="username"></label>
+                    <input id="chat" type="text" placeholder="Scrivi un messaggio"></span>
+                    <span class="icon-bottom">    <i class="fa-solid fa-microphone"></i></span>
+            </div>
         </div>
+
     </div>
     </div>
 </body>

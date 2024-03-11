@@ -48,4 +48,10 @@
     width: 65%;
     margin: 5px 15px 5px 15px;
 }
+.icon-bottom{
+    display:none;
+}
+.message{
+    width: 98%;
+}
 }

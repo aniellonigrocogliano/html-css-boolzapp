@@ -22,6 +22,7 @@ img {
     --strong-gray: #B1B1B1;
     --white: #ffffff;
     --black: #000000;
+    --beige: #F3EEEA
 }
 
 body {
@@ -70,6 +71,7 @@ body {
     width: 70%;
     height: 100%;
     background-image: url(../img/mine.jpg);
+    position: relative;
 }
 
 .toolbar-left {
@@ -147,7 +149,7 @@ input[type=text] {
     font-size: 1rem;
     color: var(--black);
 }
-.name p, .status p{
+.name p, .status p {
     color: var(--strong-gray);
     font-size: 0.8rem;
 }
@@ -199,7 +201,31 @@ input[type=text] {
 .chat-time {
     color: var(--strong-gray);
     font-size: 0.8rem;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-content: space-between
+
+
 }
+.bottom{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color: var(--beige);
+    width: 100%;
+    height: 8%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: var(--strong-gray);
+}
+.message{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid var(--beige);
+    background-color: var(--white);
+    width: 95%;
+    
+}
+
+  
