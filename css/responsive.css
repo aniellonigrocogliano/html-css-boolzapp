@@ -26,6 +26,10 @@
    .chat-list h2, .chat-list p {
     display: none;
    }
+   .box{
+    width: 65%;
+    margin: 15px 45px 15px 45px;
+}
 }
 
 
@@ -40,4 +44,8 @@
    .icon-right{
     display:none;
    }
+   .box{
+    width: 65%;
+    margin: 5px 15px 5px 15px;
+}
 }
