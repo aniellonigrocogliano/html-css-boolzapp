@@ -37,5 +37,7 @@
     .col70{
         width: 100%;
        }
-   
+   .icon-right{
+    display:none;
+   }
 }
