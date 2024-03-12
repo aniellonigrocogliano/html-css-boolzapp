@@ -183,6 +183,9 @@ input[type=text] {
 }
 .chat{
     flex-direction: column;
+    height: 75vh;
+    overflow-y: scroll;
+    overflow: auto;
 }
 .box{
     width: 55%;
